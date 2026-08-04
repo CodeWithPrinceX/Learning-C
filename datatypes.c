@@ -31,17 +31,40 @@
 // }
 
 // addition of two numbers
+// int main()
+// {
+//     int a, b;
+//     printf("enter a \n");
+//     scanf("%d", &a);
+
+//     printf("enter b \n");
+//     scanf("%d", &b);
+
+//     int sum = a + b;
+//     printf("sum is:%d", sum);
+//     return 0;
+
+// }
+
+// area of a square:
+// int main()
+// {
+//   float side;  // it's not necessary that side would be in integer only..
+
+//   printf("enter side of the square");
+//   scanf("%f", &side);
+//   printf("Area of the square is :%f", side * side);
+
+//   return 0;
+// }
+
+// area of the circle :
 int main()
 {
-    int a, b;
-    printf("enter a \n");
-    scanf("%d", &a);
+  float radius;
+  printf("enter radius of the circle");
+  scanf("%f", &radius);
+  printf("Area of circle is :%f", 3.14 * radius * radius);
 
-    printf("enter b \n");
-    scanf("%d", &b);
-
-    int sum = a + b;
-    printf("sum is:%d", sum);
-    return 0; 
-    
+  return 0;
 }
