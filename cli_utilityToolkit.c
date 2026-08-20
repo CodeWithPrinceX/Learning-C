@@ -4,23 +4,44 @@
 void sum();
 void max();
 void min();
-void checkEvenOdd(int n);
-void factorial(int n);
+void checkEvenOdd();
+void factorial();
 
 int main()
 {
     int option;
-    printf("---------CLI UTILITY TOOL KIT---------");
+    printf("---------CLI UTILITY TOOL KIT---------\n");
     do
     {
-        printf("Choose your operation: \nPress 1. Sum\n2.Maximum\n3.Minimum\n4.CheckEvenOdd\n5.Find factorial\n6.Exit");
+        printf("1. Addition\n2.Maximum\n3.Minimum\n4.CheckEvenOdd\n5.Find factorial\n6.Exit\n");
+        printf("Choose your operation: ");
         scanf("%d", &option);
 
         switch (option)
         {
+        case 1:
+            sum();
+            break;
+        case 2:
+            max();
+            break;
+        case 3:
+            min();
+            break;
+        case 4:
+            checkEvenOdd();
+            break;
+        case 5:
+            factorial();
+            break;
+        case 6:
+            printf("Exit.");
+            break;
+        default:
+            printf("Wrong Input!!\n");
         }
 
-    } while ();
+    } while (option != 6);
 
     return 0;
 }
@@ -48,10 +69,10 @@ void min()
     printf("Enter two numbers");
     scanf("%d", &a);
     scanf("%d", &b);
-    printf("minimum is %d\n, a<b? a : b");
+    printf("minimum is %d\n", a<b? a : b);
 }
 
-void checkEvenOdd(int n)
+void checkEvenOdd()
 {
     int n;
     printf("Enter a number");
@@ -60,7 +81,7 @@ void checkEvenOdd(int n)
     printf(n % 2 == 0 ? ("Even") : ("Odd"));
 }
 
-void factorial(int n)
+void factorial()
 {
     int n;
     printf("Enter a number");
