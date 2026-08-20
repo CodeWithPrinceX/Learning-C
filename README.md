@@ -13,7 +13,7 @@ My journey of learning the C programming language from the fundamentals, with pr
 | 5 | Arithmetic Operations | ✅ Done |
 | 6 | Conditional Statements | ✅ Done |
 | 7 | Loop Control Statements | ✅ Done |
-| 8 | Functions | ⏳ Upcoming |
+| 8 | Functions | ✅ Done |
 | 9 | Arrays | ⏳ Upcoming |
 | 10 | Strings | ⏳ Upcoming |
 | 11 | Pointers | ⏳ Upcoming |
@@ -50,6 +50,16 @@ My journey of learning the C programming language from the fundamentals, with pr
 - Nested loops
 - `break`
 - Basic loop-based problem solving
+- Star and number patterns
+
+### Functions
+- Function declaration
+- Function definition
+- Function calls
+- Function parameters and arguments
+- Return types
+- Passing values to functions
+- Basic utility functions
 
 ### Practice Programs
 - Sum of natural numbers
@@ -58,6 +68,19 @@ My journey of learning the C programming language from the fundamentals, with pr
 - Number input problems
 - Loop practice questions
 - Conditional statement practice
+- Nested loop and pattern practice
+
+### 🧩 Mini Project — CLI Utility Toolkit
+
+A menu-driven command-line program built using functions and `switch` statements.
+
+**Features:**
+- Addition of two numbers
+- Find the maximum of two numbers
+- Find the minimum of two numbers
+- Check whether a number is even or odd
+- Calculate factorial
+- Exit option
 
 ---
 
@@ -74,7 +97,7 @@ My journey of learning the C programming language from the fundamentals, with pr
 
 ## 🎯 Current Focus
 
-Currently learning the next concepts in C and strengthening programming fundamentals through practice.
+Currently strengthening my understanding of functions and practicing problem-solving before moving on to arrays.
 
 ---
 
