@@ -13,7 +13,7 @@ My journey of learning the C programming language from the fundamentals, with pr
 | 5 | Arithmetic Operations | ✅ Done |
 | 6 | Conditional Statements | ✅ Done |
 | 7 | Loop Control Statements | ✅ Done |
-| 8 | Functions | ✅ Done |
+| 8 | Functions & Recursion | ✅ Done |
 | 9 | Arrays | ⏳ Upcoming |
 | 10 | Strings | ⏳ Upcoming |
 | 11 | Pointers | ⏳ Upcoming |
@@ -52,14 +52,16 @@ My journey of learning the C programming language from the fundamentals, with pr
 - Basic loop-based problem solving
 - Star and number patterns
 
-### Functions
+### Functions & Recursion
 - Function declaration
 - Function definition
 - Function calls
-- Function parameters and arguments
+- Parameters and arguments
 - Return types
 - Passing values to functions
-- Basic utility functions
+- Pass by value
+- Recursive functions
+- Base cases
 
 ### Practice Programs
 - Sum of natural numbers
@@ -69,6 +71,7 @@ My journey of learning the C programming language from the fundamentals, with pr
 - Loop practice questions
 - Conditional statement practice
 - Nested loop and pattern practice
+- Basic recursion programs
 
 ### 🧩 Mini Project — CLI Utility Toolkit
 
@@ -97,7 +100,7 @@ A menu-driven command-line program built using functions and `switch` statements
 
 ## 🎯 Current Focus
 
-Currently strengthening my understanding of functions and practicing problem-solving before moving on to arrays.
+Currently moving on to arrays and continuing to strengthen problem-solving skills in C.
 
 ---
 
