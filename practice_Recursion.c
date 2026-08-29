@@ -5,6 +5,8 @@
 //(iii) Question 3 ---> factorial of n
 
 // declaration
+int p;
+int natural(int p);
 void solve(int n);
 int factorial(int n);
 
@@ -12,6 +14,9 @@ int main()
 {
     solve(1);
     printf("Factorial = %d\n", factorial(6));
+    printf("Enter number till sum is required : ");
+    scanf("%d", &p);
+    printf("Sum of natural number is: %d", natural(p));
     return 0;
 }
 
@@ -36,4 +41,13 @@ int factorial(int n)
         // recursive call
         return n * factorial(n - 1);
     }
+}
+
+int natural(int p)
+{
+    if (p == 0)
+    {
+        return 0;
+    }
+    return p + natural(p - 1);
 }
