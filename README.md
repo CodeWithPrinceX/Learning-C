@@ -1,6 +1,6 @@
 # Learning C — My Progress Journal
 
-My journey of learning the C programming language from the fundamentals, with practice questions and small programs along the way.
+My journey of learning the C programming language from the fundamentals, with practice questions and small projects along the way.
 
 ## 📊 Progress
 
@@ -13,12 +13,13 @@ My journey of learning the C programming language from the fundamentals, with pr
 | 5 | Arithmetic Operations | ✅ Done |
 | 6 | Conditional Statements | ✅ Done |
 | 7 | Loop Control Statements | ✅ Done |
-| 8 | Functions & Recursion | ✅ Done |
-| 9 | Arrays | ⏳ Upcoming |
-| 10 | Strings | ⏳ Upcoming |
-| 11 | Pointers | ⏳ Upcoming |
-| 12 | Structures | ⏳ Upcoming |
-| 13 | File Handling | ⏳ Upcoming |
+| 8 | Functions | ✅ Done |
+| 9 | Recursion | ✅ Done |
+| 10 | Arrays | ✅ Done |
+| 11 | Strings | ⏳ Upcoming |
+| 12 | Pointers | ⏳ Upcoming |
+| 13 | Structures | ⏳ Upcoming |
+| 14 | File Handling | ⏳ Upcoming |
 
 ---
 
@@ -50,40 +51,60 @@ My journey of learning the C programming language from the fundamentals, with pr
 - Nested loops
 - `break`
 - Basic loop-based problem solving
-- Star and number patterns
 
-### Functions & Recursion
+### Functions
 - Function declaration
 - Function definition
-- Function calls
+- Function calling
 - Parameters and arguments
-- Return types
-- Passing values to functions
+- Return values
 - Pass by value
+- Functions with arrays
+
+### Recursion
 - Recursive functions
-- Base cases
+- Base case
+- Recursive call
+- Recursion with simple problems
+- Factorial using recursion
 
-### Practice Programs
-- Sum of natural numbers
-- Multiplication table
+### Arrays
+- Array declaration
+- Array initialization
+- Taking array input
+- Accessing array elements
+- Array traversal
+- Passing arrays to functions
+- Finding sum
+- Finding average
+- Finding maximum
+- Finding minimum
+- Finding array size using `sizeof()`
+
+---
+
+## 🚀 Projects
+
+### CLI Utility Toolkit
+A basic command-line utility program using functions.
+
+Features:
+- Addition
+- Maximum
+- Minimum
+- Even/Odd checking
 - Factorial
-- Number input problems
-- Loop practice questions
-- Conditional statement practice
-- Nested loop and pattern practice
-- Basic recursion programs
 
-### 🧩 Mini Project — CLI Utility Toolkit
+### Array Statistics Analyzer
+A mini project built using arrays and functions.
 
-A menu-driven command-line program built using functions and `switch` statements.
-
-**Features:**
-- Addition of two numbers
-- Find the maximum of two numbers
-- Find the minimum of two numbers
-- Check whether a number is even or odd
-- Calculate factorial
-- Exit option
+Features:
+- Array input
+- Sum of elements
+- Average of elements
+- Maximum element
+- Minimum element
+- Array size calculation
 
 ---
 
@@ -100,7 +121,7 @@ A menu-driven command-line program built using functions and `switch` statements
 
 ## 🎯 Current Focus
 
-Currently moving on to arrays and continuing to strengthen problem-solving skills in C.
+Currently learning Arrays through practice and small project-based programs, while strengthening C programming fundamentals.
 
 ---
 
