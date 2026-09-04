@@ -1,6 +1,6 @@
 # Learning C — My Progress Journal
 
-My journey of learning the C programming language from the fundamentals, with practice questions and small projects along the way.
+My journey of learning the C programming language from the fundamentals, with practice questions and small programs along the way.
 
 ## 📊 Progress
 
@@ -16,12 +16,11 @@ My journey of learning the C programming language from the fundamentals, with pr
 | 8 | Functions | ✅ Done |
 | 9 | Recursion | ✅ Done |
 | 10 | Arrays | ✅ Done |
-| 11 | Strings | ⏳ Upcoming |
-| 12 | Pointers | ⏳ Upcoming |
-| 13 | Structures | ⏳ Upcoming |
-| 14 | File Handling | ⏳ Upcoming |
-
----
+| 11 | 2D Arrays | ✅ Done |
+| 12 | Strings | ⏳ Upcoming |
+| 13 | Pointers | ⏳ Upcoming |
+| 14 | Structures | ⏳ Upcoming |
+| 15 | File Handling | ⏳ Upcoming |
 
 ## 📚 What I've Learned
 
@@ -55,61 +54,34 @@ My journey of learning the C programming language from the fundamentals, with pr
 ### Functions
 - Function declaration
 - Function definition
-- Function calling
+- Function calls
 - Parameters and arguments
 - Return values
+- Local variables
 - Pass by value
 - Functions with arrays
 
 ### Recursion
-- Recursive functions
 - Base case
-- Recursive call
-- Recursion with simple problems
-- Factorial using recursion
+- Recursive calls
+- Recursive problem solving
 
 ### Arrays
-- Array declaration
-- Array initialization
-- Taking array input
-- Accessing array elements
+- One-dimensional arrays
+- Array declaration and initialization
+- Array input and output
 - Array traversal
 - Passing arrays to functions
-- Finding sum
-- Finding average
-- Finding maximum
-- Finding minimum
-- Finding array size using `sizeof()`
+- Array statistics
 
----
-
-## 🚀 Projects
-
-### CLI Utility Toolkit
-A basic command-line utility program using functions.
-
-Features:
-- Addition
-- Maximum
-- Minimum
-- Even/Odd checking
-- Factorial
-
-### Array Statistics Analyzer
-A mini project built using arrays and functions.
-
-Features:
-- Array input
-- Sum of elements
-- Average of elements
-- Maximum element
-- Minimum element
-- Array size calculation
-
----
+### 2D Arrays
+- Two-dimensional array declaration
+- Matrix initialization
+- Nested loop traversal
+- Rows and columns
+- Matrix element operations
 
 ## 🛠️ Tools
-
 - C
 - GCC
 - Visual Studio Code
@@ -117,13 +89,27 @@ Features:
 - GitHub
 - MSYS2
 
----
+## 📌 Projects
+
+### CLI Utility Toolkit
+- Addition
+- Maximum
+- Minimum
+- Even/Odd check
+- Factorial
+- Menu-driven program using functions and switch
+
+### Array Statistics Analyzer
+- Sum of array elements
+- Average
+- Maximum element
+- Minimum element
+- Array size analysis
+- Functions with arrays
 
 ## 🎯 Current Focus
 
-Currently learning Arrays through practice and small project-based programs, while strengthening C programming fundamentals.
-
----
+Currently learning the next concepts in C and strengthening programming fundamentals through practice and small projects.
 
 ## 📈 Goal
 
@@ -131,10 +117,6 @@ Build strong programming fundamentals before moving deeper into:
 
 **C → C++ → DSA → Full-Stack Development → AI/ML**
 
----
-
 ## 🔄 Learning Approach
-
-I am maintaining this repository as a record of my learning journey.
 
 **Learn → Practice → Build → Commit → Move Forward**
