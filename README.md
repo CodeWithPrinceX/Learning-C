@@ -81,6 +81,21 @@ My journey of learning the C programming language from the fundamentals, with pr
 - Rows and columns
 - Matrix element operations
 
+### 12. Strings ✅
+- String declaration and initialization
+- Null character (`\0`)
+- String input using `fgets()`
+- Traversing strings using loops
+- `strlen()` – String length
+- `strcpy()` – String copy
+- `strcat()` – String concatenation
+- `strcmp()` – String comparison
+
+**Practice:**
+- Find string length
+- Check palindrome
+- Toggle character case
+
 ## 🛠️ Tools
 - C
 - GCC
