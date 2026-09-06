@@ -17,7 +17,7 @@ My journey of learning the C programming language from the fundamentals, with pr
 | 9 | Recursion | ✅ Done |
 | 10 | Arrays | ✅ Done |
 | 11 | 2D Arrays | ✅ Done |
-| 12 | Strings | ⏳ Upcoming |
+| 12 | Strings | ✅ Done |
 | 13 | Pointers | ⏳ Upcoming |
 | 14 | Structures | ⏳ Upcoming |
 | 15 | File Handling | ⏳ Upcoming |
