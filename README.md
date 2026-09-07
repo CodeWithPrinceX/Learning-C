@@ -122,6 +122,17 @@ My journey of learning the C programming language from the fundamentals, with pr
 - Array size analysis
 - Functions with arrays
 
+### 3. Number Guessing Game 🎮
+My first C game project — a simple CLI-based number guessing game.
+
+**Concepts used:**
+- Variables
+- Conditional statements
+- Loops
+- Random number generation
+- User input
+- Game logic
+
 ## 🎯 Current Focus
 
 Currently learning the next concepts in C and strengthening programming fundamentals through practice and small projects.
