@@ -133,6 +133,36 @@ My first C game project — a simple CLI-based number guessing game.
 - User input
 - Game logic
 
+## 🎮 PokeGuess
+
+PokeGuess is a simple Pokémon guessing game made in C. The player first selects a Pokémon type, and the game randomly selects a Pokémon from that type. The Pokémon name is then hidden, and the player has to guess the characters within a limited number of attempts.
+
+### Features
+
+- 🔥 Fire, 🌿 Grass and 💧 Water Pokémon categories
+- 🎲 Random Pokémon selection
+- 🔤 Character-by-character guessing
+- ❤️ 6 attempts
+- ✅ Correct and wrong guess detection
+- 🏆 Win and Game Over conditions
+
+### Concepts Used
+
+- Variables and data types
+- Arrays and strings
+- Pointers
+- `if-else` conditions
+- `for` and `while` loops
+- Functions from C libraries
+- Random number generation using `rand()` and `srand()`
+- String functions like `strlen()` and `strcmp()`
+
+### How to Run
+
+Compile the program using a C compiler:
+
+```bash
+gcc PokeGuess.c -o PokeGuess
 ## 🎯 Current Focus
 
 Currently learning the next concepts in C and strengthening programming fundamentals through practice and small projects.
