@@ -1,178 +1,183 @@
-# Learning C — My Progress Journal
+# 💻 C Programming Journey
 
-My journey of learning the C programming language from the fundamentals, with practice questions and small programs along the way.
+Welcome to my C Programming learning repository!
 
-## 📊 Progress
+This repository contains my learning progress, practice programs, and projects as I build my programming fundamentals step by step.
+
+> Learn → Practice → Build → Commit → Move Forward 🚀
+
+---
+
+## 📚 Learning Progress
 
 | # | Topic | Status |
 |---|---|---|
-| 1 | First Program | ✅ Done |
-| 2 | Input & Output | ✅ Done |
-| 3 | Data Types | ✅ Done |
-| 4 | Instructions & Operators | ✅ Done |
-| 5 | Arithmetic Operations | ✅ Done |
-| 6 | Conditional Statements | ✅ Done |
-| 7 | Loop Control Statements | ✅ Done |
-| 8 | Functions | ✅ Done |
-| 9 | Recursion | ✅ Done |
-| 10 | Arrays | ✅ Done |
-| 11 | 2D Arrays | ✅ Done |
-| 12 | Strings | ✅ Done |
-| 13 | Pointers | ⏳ Upcoming |
+| 1 | First Program | ✅ Completed |
+| 2 | Input & Output | ✅ Completed |
+| 3 | Data Types | ✅ Completed |
+| 4 | Instructions & Operators | ✅ Completed |
+| 5 | Arithmetic Operations | ✅ Completed |
+| 6 | Conditional Statements | ✅ Completed |
+| 7 | Loop Control Statements | ✅ Completed |
+| 8 | Functions | ✅ Completed |
+| 9 | Recursion | ✅ Completed |
+| 10 | Arrays | ✅ Completed |
+| 11 | 2D Arrays | ✅ Completed |
+| 12 | Strings | ✅ Completed |
+| 13 | Pointers | ✅ Completed |
 | 14 | Structures | ⏳ Upcoming |
 | 15 | File Handling | ⏳ Upcoming |
 
-## 📚 What I've Learned
+---
 
-### Basics
+## 🧠 What I've Learned
+
+### 1. Basics
 - First C program
-- `printf()` and `scanf()`
 - Variables
 - Data types
-- Constants
+- Input and output
+- `printf()`
+- `scanf()`
 - Operators
-- Arithmetic operations
-- Type conversion
+- Instructions
 
-### Conditional Statements
+### 2. Conditional Statements
 - `if`
 - `if-else`
 - `else-if`
-- Nested statements
-- Conditional operator
-- Practice problems
+- Nested conditions
+- `switch-case`
 
-### Loops
+### 3. Loops
 - `for` loop
 - `while` loop
 - `do-while` loop
-- Increment and decrement operators
-- Nested loops
 - `break`
-- Basic loop-based problem solving
+- `continue`
 
-### Functions
+### 4. Functions
 - Function declaration
 - Function definition
-- Function calls
+- Function calling
 - Parameters and arguments
 - Return values
-- Local variables
-- Pass by value
 - Functions with arrays
 
-### Recursion
-- Base case
+### 5. Recursion
+- Recursive functions
+- Base condition
 - Recursive calls
-- Recursive problem solving
+- Factorial using recursion
 
-### Arrays
-- One-dimensional arrays
-- Array declaration and initialization
-- Array input and output
+### 6. Arrays
+- Array declaration
+- Array initialization
 - Array traversal
+- Taking array input
+- Finding sum
+- Finding average
+- Finding maximum and minimum
 - Passing arrays to functions
-- Array statistics
 
-### 2D Arrays
-- Two-dimensional array declaration
+### 7. 2D Arrays
+- 2D array declaration
 - Matrix initialization
-- Nested loop traversal
-- Rows and columns
-- Matrix element operations
+- Matrix input and output
+- Nested loops
+- Matrix traversal
+- Main diagonal
+- Anti-diagonal
+- Upper and lower triangular elements
+- Matrix-based calculations
 
-### 12. Strings ✅
+### 8. Strings
+- Character arrays
 - String declaration and initialization
 - Null character (`\0`)
 - String input using `fgets()`
-- Traversing strings using loops
+- String traversal
 - `strlen()` – String length
 - `strcpy()` – String copy
 - `strcat()` – String concatenation
 - `strcmp()` – String comparison
 
-**Practice:**
+#### String Practice
 - Find string length
 - Check palindrome
 - Toggle character case
 
-## 🛠️ Tools
-- C
-- GCC
-- Visual Studio Code
-- Git
-- GitHub
-- MSYS2
+### 9. Pointers
+- Pointer declaration
+- Address operator (`&`)
+- Dereference operator (`*`)
+- Pointers and addresses
+- Pointer to pointer
+- Passing pointers to functions
+- Swapping values using pointers
 
-## 📌 Projects
+---
 
-### CLI Utility Toolkit
+## 🚀 Projects
+
+### 1. CLI Utility Toolkit
+
+A menu-driven C program containing multiple utility operations.
+
+**Features:**
 - Addition
+- Maximum and Minimum
+- Even/Odd checking
+- Factorial
+- Menu-driven interface
+- Functions
+- `switch-case`
+
+---
+
+### 2. Array Statistics Analyzer
+
+A C program for analyzing elements of an array.
+
+**Features:**
+- Sum
+- Average
 - Maximum
 - Minimum
-- Even/Odd check
-- Factorial
-- Menu-driven program using functions and switch
-
-### Array Statistics Analyzer
-- Sum of array elements
-- Average
-- Maximum element
-- Minimum element
-- Array size analysis
+- Array size
 - Functions with arrays
 
+---
+
 ### 3. Number Guessing Game 🎮
-My first C game project — a simple CLI-based number guessing game.
+
+My first game project in C.
+
+A simple CLI-based game where the player tries to guess a randomly generated number.
 
 **Concepts used:**
 - Variables
+- User input
 - Conditional statements
 - Loops
 - Random number generation
-- User input
 - Game logic
 
-## 🎮 PokeGuess
+> Built while following a tutorial and using AI assistance as part of my learning process.
 
-PokeGuess is a simple Pokémon guessing game made in C. The player first selects a Pokémon type, and the game randomly selects a Pokémon from that type. The Pokémon name is then hidden, and the player has to guess the characters within a limited number of attempts.
+---
 
-### Features
+## 🛠️ Current Goal
 
-- 🔥 Fire, 🌿 Grass and 💧 Water Pokémon categories
-- 🎲 Random Pokémon selection
-- 🔤 Character-by-character guessing
-- ❤️ 6 attempts
-- ✅ Correct and wrong guess detection
-- 🏆 Win and Game Over conditions
+My overall programming roadmap:
 
-### Concepts Used
-
-- Variables and data types
-- Arrays and strings
-- Pointers
-- `if-else` conditions
-- `for` and `while` loops
-- Functions from C libraries
-- Random number generation using `rand()` and `srand()`
-- String functions like `strlen()` and `strcmp()`
-
-### How to Run
-
-Compile the program using a C compiler:
-
-```bash
-gcc PokeGuess.c -o PokeGuess
-## 🎯 Current Focus
-
-Currently learning the next concepts in C and strengthening programming fundamentals through practice and small projects.
-
-## 📈 Goal
-
-Build strong programming fundamentals before moving deeper into:
-
-**C → C++ → DSA → Full-Stack Development → AI/ML**
-
-## 🔄 Learning Approach
-
-**Learn → Practice → Build → Commit → Move Forward**
+```text
+C
+ ↓
+C++
+ ↓
+DSA
+ ↓
+Full-Stack Development
+ ↓
+AI / ML
