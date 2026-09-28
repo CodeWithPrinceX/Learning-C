@@ -25,7 +25,7 @@ This repository contains my learning progress, practice programs, and projects a
 | 11 | 2D Arrays | ✅ Completed |
 | 12 | Strings | ✅ Completed |
 | 13 | Pointers | ✅ Completed |
-| 14 | Structures | ⏳ Upcoming |
+| 14 | Structures | ✅ Completed |
 | 15 | File Handling | ⏳ Upcoming |
 
 ---
@@ -116,6 +116,16 @@ This repository contains my learning progress, practice programs, and projects a
 - Passing pointers to functions
 - Swapping values using pointers
 
+### 10. Structures
+- Structure declaration
+- Structure initialization
+- Accessing members with `.` operator
+- `typedef` for cleaner syntax
+- Array of structures
+- Passing struct by value vs by pointer
+- Accessing members via pointer using `->` operator
+- Nested use of structs with functions
+
 ---
 
 ## 🚀 Projects
@@ -164,6 +174,24 @@ A simple CLI-based game where the player tries to guess a randomly generated num
 - Game logic
 
 > Built while following a tutorial and using AI assistance as part of my learning process.
+
+---
+
+### 4. Student Records System 🎓
+
+A C program to manage student data using array of structures.
+
+**Features:**
+- Store roll number, name, and marks for N students
+- Take input dynamically based on user-defined size
+- Display all student records
+- Find and display the student with highest marks
+
+**Concepts used:**
+- Structures with `typedef`
+- Array of structures
+- Loops for input and display
+- Logic to find maximum
 
 ---
 
